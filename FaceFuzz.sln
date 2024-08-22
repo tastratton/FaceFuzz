@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceFuzz.Core", "FaceFuzz.Core\FaceFuzz.Core.csproj", "{C2A3DF45-61F3-4DAD-BCE8-02E1E0F5CCCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{263EC269-7694-465A-BB6D-5083B7DBE36E}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+		TODO.md = TODO.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceFuzz.Core.Example", "Example\FaceFuzz.Core.Example\FaceFuzz.Core.Example.csproj", "{1B797CD8-E8CD-42B5-9F55-C6B460A688A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2A3DF45-61F3-4DAD-BCE8-02E1E0F5CCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A3DF45-61F3-4DAD-BCE8-02E1E0F5CCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A3DF45-61F3-4DAD-BCE8-02E1E0F5CCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A3DF45-61F3-4DAD-BCE8-02E1E0F5CCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B797CD8-E8CD-42B5-9F55-C6B460A688A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B797CD8-E8CD-42B5-9F55-C6B460A688A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B797CD8-E8CD-42B5-9F55-C6B460A688A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B797CD8-E8CD-42B5-9F55-C6B460A688A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {480F2F91-4BA2-4E06-AED2-F4F1FF20C3D1}
+	EndGlobalSection
+EndGlobal
